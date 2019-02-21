@@ -1,0 +1,82 @@
+.headingSection {
+    background-color: antiquewhite;
+    height: 200px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: coral;
+}
+
+.heading1 {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: chocolate;
+}
+a:link{
+    color: red;
+}
+a:visited {
+    color: blue;
+
+}
+a:hover {
+    text-decoration: overline;
+    color: green;
+}
+a:active {
+    color: saddlebrown;
+}
+
+.ulStyle {
+    list-style-type: square;
+
+}
+
+
+.tableStyle,th,td {
+
+    border: 1px solid black;
+
+}
+
+
+
+.tableStyle {
+
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

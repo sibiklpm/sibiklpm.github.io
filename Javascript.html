@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        let result = "";
+
+
+        function buttonClicked(number) {
+            result += number;
+            document.getElementById("display").innerText = result;
+        }
+
+        function showResult() {
+            document.getElementById("display").innerText = eval(result)
+        }
+
+
+    </script>
+</head>
+<body>
+<!--<h1 id="heading">Welcome</h1>
+
+<button onclick="changeName()">Click</button>
+<button onclick="showAlert()">Show alert</button>
+
+<br>-->
+
+
+<input id="display">
+
+<br>
+
+<input type="button" value="1" onclick="buttonClicked('1')">
+
+<input type="button" value="2" onclick="buttonClicked('2')">
+
+<input type="button" value="3">
+
+<input type="button" value="+" onclick="buttonClicked('+')">
+
+<br>
+
+<input type="button" value="4">
+
+<input type="button" value="5">
+
+<input type="button" value="6">
+
+<input type="button" value="-">
+
+<br>
+
+<input type="button" value="7">
+
+<input type="button" value="8">
+
+<input type="button" value="9">
+
+<input type="button" value="*">
+
+<br>
+
+<input type="button" value="0">
+
+<input type="button" value=".">
+
+<input type="button" value="/">
+
+<input type="button" value="=" onclick="showResult()">
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
